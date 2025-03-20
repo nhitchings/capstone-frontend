@@ -12,8 +12,8 @@ function Header() {
         let lastScrollTop = 0;
         const header = headerRef.current;
         const handleScroll = () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop > lastScrollTop) {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        if (scrollTop > 100 && scrollTop > lastScrollTop) {
             header.style.transform = "translateY(-100%)";
         } else {
             header.style.transform = "translateY(0)";

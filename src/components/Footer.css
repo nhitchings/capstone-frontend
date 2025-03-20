@@ -53,3 +53,13 @@ footer p {
     margin: 20px auto;
     max-width: 400px;
 }
+
+@media screen and (max-width: 768px) {
+    footer .content section {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    
+}
