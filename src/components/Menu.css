@@ -1,0 +1,32 @@
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu {
+    margin: 40px auto;
+}
+
+.menu h1 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 40px;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.menu-content > div {
+    width: 33.332%;
+    padding: 20px;
+    box-sizing: border-box;
+}

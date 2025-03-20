@@ -1,0 +1,55 @@
+footer {
+    text-align: center;
+    background: url('../../public/lemon-tile.png') repeat;
+    background-size: 400px auto;
+    padding: 40px 0;
+}
+
+footer .content {
+    background-color: rgba(255, 252, 245, 0.95);
+    padding: 20px;
+    color: #282929;
+}
+
+footer .content section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer .content section:last-child {
+    flex-direction: column;
+}
+
+footer .content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer .social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 40px;
+    align-items: center;
+}
+
+footer hr {
+    border: 1px solid #fff;
+    margin: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #282929;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}

@@ -1,0 +1,45 @@
+.lemon-section {
+    background-color: #fcbe1e;
+    color: #fff;
+    border: 3px solid #fff;;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url('../../public/lemons.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto cover;
+}
+
+.lemon-section input, .lemon-section select, .lemon-section textarea {
+    width: 100%;
+    max-width: 400px;
+    background-color: #a36d08;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+.lemon-section label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.lemon-section button, .lemon-section input[type="submit"] {
+    background-color: #fff;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: #a36d08;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
