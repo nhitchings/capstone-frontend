@@ -3,6 +3,13 @@ body {
   color: #fffef5;
 }
 
+body, .outfit-regular, p, input, select, textarea, h2, h3, h4, h5, h6, label {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1, .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;

@@ -8,7 +8,7 @@ import {
 
 function Footer () {
   return (
-    <footer>
+    <footer id="footer-section">
         <div className="content container">
             <section>
                 <img src="/lemon-logo.png" alt="Little Lemon" className="logo" />

@@ -2,7 +2,7 @@ import './Menu.css';
 
 function Menu() {
     return (
-        <section className="menu container">
+        <section id="menu-section" className="menu container">
             <h1>Our Menu</h1>
             <div className="menu-content">
                 <div className="">
