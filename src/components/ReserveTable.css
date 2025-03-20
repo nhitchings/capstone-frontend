@@ -28,8 +28,25 @@
 
 .lemon-section label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 10px 0 30px;
     text-align: left;
+    font-size: 16px;;
+    position: relative;
+}
+
+.error {
+    background-color: crimson;
+    color: #fff;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    position: absolute;
+    bottom: -26px;
+    left: 0;
+    padding: 4px;
+}
+input[type="submit"]:disabled {
+    background: gray;
+    cursor: not-allowed;
 }
 
 .lemon-section button, .lemon-section input[type="submit"] {
@@ -42,4 +59,13 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.lemon-section h1, .lemon-section button.secondary, .lemon-section label {
+    text-shadow: rgba(70, 47, 6, 0.6) 1px 1px 10px;
+}
+
+.lemon-section button.secondary {
+    background-color: transparent;
+    color: #fff;
 }

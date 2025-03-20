@@ -1,21 +1,10 @@
 import './Header.css';
 import { useRef, useEffect } from 'react';
+import useSmoothScroll from '../hooks/useSmoothScroll';
 
 function Header() {
 
-    const handleClick = (anchor) => () => {
-        const id = `${anchor}-section`;
-        const element = document.getElementById(id);
-        if (element) {
-            let headerOffset = 100;
-            let elementPosition = element.getBoundingClientRect().top;
-            let offsetPosition = elementPosition + window.pageYOffset - headerOffset;  
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth"
-            });
-        }
-    };
+    const handleClick = useSmoothScroll();
 
     const headerRef = useRef(null);
 
