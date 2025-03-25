@@ -44,10 +44,6 @@
     left: 0;
     padding: 4px;
 }
-input[type="submit"]:disabled {
-    background: gray;
-    cursor: not-allowed;
-}
 
 .lemon-section button, .lemon-section input[type="submit"] {
     background-color: #fff;
@@ -59,6 +55,11 @@ input[type="submit"]:disabled {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.lemon-section input[type="submit"]:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
 }
 
 .lemon-section h1, .lemon-section button.secondary, .lemon-section label {
